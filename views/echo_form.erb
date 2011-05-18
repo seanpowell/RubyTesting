@@ -1,0 +1,7 @@
+<form action="/echo" method="post">
+    <label for="string">String:</label>
+    <input value="<%=h @default_string %>" id="string" type="text" name="string">
+    <label for="upcase">Upper:</label>
+    <input type="checkbox" id="upcase" name="upcase" value="upcase">
+    <input type="submit" value="Go!">
+</form>
